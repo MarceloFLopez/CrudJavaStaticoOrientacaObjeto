@@ -34,6 +34,7 @@
   <div style="display: inline_block"> 
  O CRUD estático em Java que vou descrever é uma aplicação simples que permite a criação, leitura, atualização e exclusão de registros em memória durante a execução do programa. Neste caso, o CRUD é considerado "estático" porque os dados são armazenados em estruturas de dados estáticas, como listas ou mapas, e não em um banco de dados permanente. Além disso, o CRUD permite a inserção de informações apenas via terminal, o que significa que os usuários interagem com o programa através da linha de comando.
 
+
  Carácteristica: Esse crud possui uma estrutura básica utilizando todos os elemntos que envolvem a Orientação à Objetos, alem de 
  utilizar uma hierarquia de classes e pacotes similares aos utlilizados em aplicações profissionais.
 
