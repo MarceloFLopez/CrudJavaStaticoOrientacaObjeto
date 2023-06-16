@@ -45,7 +45,7 @@ public class ProdutoService implements ProdutoServiceImpl {
 				System.out.print("Informe a descricao do produto: ");
 				produtos.get(i).setDescricao(sc.nextLine());
 				System.out.print("Informe a marca do produto: ");
-				produtos.get(i).setMarca(sc.nextLine());
+				produtos.get(i).setcategoria(sc.nextLine());
 				System.out.print("Informe o valor do produto: ");
 				produtos.get(i).setValorUni(sc.nextDouble());
 				System.out.print("Informe a quantidade do produto: ");
@@ -67,7 +67,7 @@ public class ProdutoService implements ProdutoServiceImpl {
 //				produtos.remove(i);
 				produtos.get(i).setDataValidade(null);
 				produtos.get(i).setDescricao(null);
-				produtos.get(i).setMarca(null);
+				produtos.get(i).setcategoria(null);
 				produtos.get(i).setQuanridade(null);
 				produtos.get(i).setValorUni(null);
 				remove = true;

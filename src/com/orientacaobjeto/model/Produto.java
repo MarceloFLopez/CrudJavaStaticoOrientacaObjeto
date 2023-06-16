@@ -6,7 +6,7 @@ public class Produto {
 
 	private Integer id;
 	private String descricao;
-	private String marca;
+	private String categoria;
 	private Double valorUni;
 	private Integer quanridade;
 	private LocalDate dataValidade;
@@ -14,12 +14,12 @@ public class Produto {
 	public Produto() {
 	}
 
-	public Produto(Integer id, String descricao, String marca, Double valorUni, Integer quanridade,
+	public Produto(Integer id, String descricao, String categoria, Double valorUni, Integer quanridade,
 			LocalDate dataValidade) {
 		super();
 		this.id = id;
 		this.descricao = descricao;
-		this.marca = marca;
+		this.categoria = categoria;
 		this.valorUni = valorUni;
 		this.quanridade = quanridade;
 		this.dataValidade = dataValidade;
@@ -41,12 +41,12 @@ public class Produto {
 		this.descricao = descricao;
 	}
 
-	public String getMarca() {
-		return marca;
+	public String getcategoria() {
+		return categoria;
 	}
 
-	public void setMarca(String marca) {
-		this.marca = marca;
+	public void setcategoria(String categoria) {
+		this.categoria = categoria;
 	}
 
 	public Double getValorUni() {
@@ -67,7 +67,7 @@ public class Produto {
 
 	@Override
 	public String toString() {
-		return "\nProduto [id=" + id + ", descricao=" + descricao + ", marca=" + marca + ", valorUni=" + valorUni
+		return "\nProduto [id=" + id + ", descricao=" + descricao + ", categoria=" + categoria + ", valorUni=" + valorUni
 				+ ", quanridade=" + quanridade + ", dataValidade=" + dataValidade + "]";
 	}
 

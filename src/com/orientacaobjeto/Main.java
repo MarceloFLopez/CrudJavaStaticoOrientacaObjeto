@@ -34,8 +34,8 @@ public class Main {
 					sc.nextLine();
 					p.setDescricao(sc.nextLine());
 
-					System.out.print("Informe a marca do produto: ");
-					p.setMarca(sc.nextLine());
+					System.out.print("Informe a categoria do produto: ");
+					p.setcategoria(sc.nextLine());
 					System.out.print("Informe o valor do produto: ");
 					p.setValorUni(sc.nextDouble());
 					System.out.print("Informe a quantidade do produto: ");
@@ -55,6 +55,7 @@ public class Main {
 					System.err.println("\nLista Vazia!");
 				} else {
 					List<Produto> novaLista = s.listarProdutos();
+					Menu.listarProdutos();
 					for (int i = 0; i < novaLista.size(); i++) {
 						if (novaLista.get(i).getDescricao() != null) {
 							System.out.println(novaLista.get(i));

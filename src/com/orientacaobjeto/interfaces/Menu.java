@@ -16,7 +16,7 @@ public interface Menu {
 	}
 	
 	static void msgNovoRegistrio() {
-		System.out.println("\n***********NOVO REGISTRO***********\n\n");
+		System.out.println("\n***********NOVO PRODUTO***********\n\n");
 	}
 	
 	static void msgNovoRegistrioRepetir() {
@@ -27,7 +27,10 @@ public interface Menu {
 		System.out.println("\n***********S - Sim / N - NAO***********\n\n");
 	}
 	static void msgEditarRegistrio() {
-		System.out.println("\n***********EDITAR REGISTRO***********\n\n");
+		System.out.println("\n***********EDITAR PRODUTO***********\n\n");
+	}
+	static void listarProdutos() {
+		System.out.println("\n***********LISTAGEM DE PRODUTOS**********\n\n");
 	}
 	static void opcaSimOuNaoDeletar() {
 		System.out.println("\n***********CONFIRMAR A EXCLUSAO***********"
